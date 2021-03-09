@@ -1,24 +1,54 @@
-body{
-    padding: 0;
+*{
+    box-sizing: border-box;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+body{
     font-family: "waltograph";
     background-color: aquamarine;
 }
 
+.nav-container{
+    background: wheat;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    height: 95px;
+}
+
 .header{
+    width: 1232px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.example{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.btn{
     font-size: 45px;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    background: wheat;
+    height: 50px;
 }
 
 .title{
     font-size: 65px;
-    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 .text{
     align-content: center;
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
